@@ -1,0 +1,16 @@
+{
+  "name": "jss-tdd",
+  "version": "1.0.0",
+  "description": "Uma lib de JS com TDD.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Matheus Francisco B Machado <matheusmachadoufsc@gmail.com> (https://matheusfrancisco.com.br/)",
+  "license": "MIT"
+}
