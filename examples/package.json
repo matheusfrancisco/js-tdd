@@ -16,6 +16,8 @@
     "babel-loader": "^6.2.10",
     "babel-preset-es2015-native-modules": "^6.9.4",
     "ramda": "^0.26.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
     "webpack": "^2.2.0"
   },
   "dependencies": {}

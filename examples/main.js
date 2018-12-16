@@ -2,6 +2,8 @@ import * as R from 'ramda';
 
 import sum, {sub, mult, div} from './utils';
 
+import react from 'react';
+import reactDOM from 'react-dom';
 
 const arr1 = [1,12,2,2,21,1,1,1,2,3,4,5];
 const arr2 = [5,6,7,8,1,1,1,2,3,4,5,6,7];
