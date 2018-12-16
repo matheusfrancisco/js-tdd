@@ -1,6 +1,7 @@
 const webpack = require('webpack');
 const nodeENV = process.eventNames.NODE_ENV || 'production';
 module.exports = {
+    devtool: 'source-map',
     entry:{
         filename: './main.js'
     },
