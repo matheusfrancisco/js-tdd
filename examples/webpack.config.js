@@ -1,5 +1,5 @@
 const webpack = require('webpack');
-
+webpack;
 module.exports = {
     entry:{
         filename: './main.js'

@@ -4,15 +4,19 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "build": "./node_modules/.bin/webpack --colors --progress",
+    "watch": "npm  run build -- --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Matheus Francisco B Machado <matheusmachadoufsc@gmail.com> (https://matheusfrancisco.com.br/)",
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.4",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
     "babel-preset-es2015-native-modules": "^6.9.4",
-    "webpack": "^4.27.1"
-  }
+    "ramda": "^0.26.1",
+    "webpack": "^2.2.0"
+  },
+  "dependencies": {}
 }
