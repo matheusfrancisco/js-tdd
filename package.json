@@ -4,6 +4,7 @@
   "description": "Uma lib de JS com TDD.",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint src/.*js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -12,5 +13,15 @@
     "library"
   ],
   "author": "Matheus Francisco B Machado <matheusmachadoufsc@gmail.com> (https://matheusfrancisco.com.br/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-es2015-native-modules": "^6.9.4",
+    "eslint": "^4.0.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "husky": "^1.2.1",
+    "webpack": "^4.27.1"
+  }
 }

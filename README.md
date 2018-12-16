@@ -6,10 +6,16 @@ This repo is implementations learning on courses "JS com TDD na prática".
 
 
 
+
+
+
 ### Prerequisities
 
 
 ```
+webpack
+babel
+ES6
 npm 
 nodejs
 ```
